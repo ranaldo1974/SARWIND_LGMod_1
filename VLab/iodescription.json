@@ -4,23 +4,12 @@
       "id": "InData",
       "inputType": "individual",
       "valueType": "value",
-      "description": "URL to download the archive containing the SAR pre-processed .bin/.hdr images",
+      "description": "URL to download the archive containing the both SAR pre-processed .bin/.hdr images and the IO input and settings .txt files",
       "name": "In_Data",
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
       "target": "/InData.zip"
-    },
-    {
-      "id": "InIOInfoAndSettings",
-      "inputType": "individual",
-      "valueType": "value",
-      "description": "URL to download the archive containing the SAR pre-processed IO input and settings txt files",
-      "name": "In_IOInfoAndSettings",
-      "obligation": true,
-      "hasDefault": false,
-      "valueSchema": "url",
-      "target": "/InIOInfoAndSettings.zip"
     }
   ],
   "outputs": [
