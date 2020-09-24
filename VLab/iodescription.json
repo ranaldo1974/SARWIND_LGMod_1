@@ -1,15 +1,26 @@
 {
   "inputs": [
     {
-      "id": "DataObject_0h3a3ff",
+      "id": "InData",
       "inputType": "individual",
       "valueType": "value",
       "description": "URL to download the archive with the SAR scene and input and settings description files",
-      "name": "Input data",
+      "name": "In_Data",
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
       "target": "/InData.zip"
+    },
+    {
+      "id": "InIOInfoAndSettings",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "URL to download the archive with the SAR scene and input and settings description files",
+      "name": "In_IOInfoAndSettings",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "/InIOInfoAndSettings.zip"
     }
   ],
   "outputs": [
